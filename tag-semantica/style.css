@@ -27,6 +27,7 @@ article{
     border: 5px solid #464646;
     width: 980px;
     height:561px;
+    margin-left: -60px;
 }
 section {
     background-color: #CCFFFF;
@@ -39,6 +40,7 @@ background-color: #dddddd;
     border: 5px solid #464646;
     width: 137px;
     height:561px;
+    margin-left: -20px;
 }
 
 footer {
