@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
 *{
     margin: 0;
     padding: 0;
-    color: #8c2B59;
-    font-family: Inter, sans-serif ;
+    color: #3B929C;
+
 }
 
+
+body{
+        font-family: "Nunito" sans-serif;
+}
 header {
     width: 100%px;
     height: 120px;
-    background-color: #8c2B59;
+    background-color: #3B929C;
 }
 nav{
     margin: 0px 50px;
@@ -19,15 +23,15 @@ nav{
 
 .menu{
     height: 120px;
-    color: #9ACEF2;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 30px;
-}
+} 
 a, a:visited{
     text-decoration: none;
-    color: #9ACEF2;
+    color: #FFFFFF;
     padding: 10px;
     border: 1px solid;
     border-radius: 0px 20px 0px 20px;
@@ -39,12 +43,13 @@ ul{
     gap: 20px;
 }
 button:hover{
-    color: #9ACEF2;
-    background-color: #8c2B59;
+    color: #FFFFFF;
+    background-color: #D16B6F;
 }
 a:hover{
-    background-color: #9ACEF2;
-    color: #8c2B59;
+    background-color: #D16B6F;
+    color: #FFFFFF;
+    border-color: #D16B6F;
     border-radius: 0px 20px 0px 20px;
 }
 main{
@@ -57,7 +62,7 @@ main{
 .reservas{
     width: 1100px;
     height: 120px;
-    border: #8c2B59 2px solid;
+    border: #3B929C 2px dashed;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -68,7 +73,7 @@ main{
 }
 button{
     width: 270px;
-    background-color: #9ACEF2;
+    background-color: #3B929C;
     color: #FFFFFF;
     padding: 20px 40px;
     border-radius: 15px;
@@ -115,7 +120,7 @@ article{
 footer{
     width: 100%px;
     height:80px;
-    background-color: #8c2B59;
+    background-color: #3B929C;
     text-align: center;
 }
 
@@ -125,3 +130,15 @@ footer{
    font-size: 20px;
    
 }
+
+
+.menu img{
+    width: 130px; 
+    border-radius:  10px;  
+}
+
+
+
+
+
+
