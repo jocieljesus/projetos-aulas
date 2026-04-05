@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     color: #3B929C;
@@ -9,57 +9,65 @@
 }
 
 
-body{
-        font-family: "Nunito" sans-serif;
-}
-header {
-    width: 100%px;
-    height: 120px;
-    background-color: #3B929C;
-}
-nav{
-    margin: 0px 50px;
+main {
+    font-family: "Nunito" sans-serif;
+    width: 1100px;
+    margin: auto;
+    color: #3B929C;
 }
 
-.menu{
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #3B929C;
+    position: fixed;
+    top: 0;
+}
+#home{
+    scroll-margin-top: 140px;
+}
+
+.menu {
     height: 120px;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 30px;
-} 
-a, a:visited{
+    margin: 0px 50px;
+}
+
+.menu__item {
     text-decoration: none;
     color: #FFFFFF;
     padding: 10px;
     border: 1px solid;
     border-radius: 0px 20px 0px 20px;
-} 
+}
 
-ul{
+ul {
     display: flex;
     list-style: none;
     gap: 20px;
 }
-button:hover{
-    color: #FFFFFF;
-    background-color: #D16B6F;
-}
-a:hover{
+
+.menu__item:hover {
     background-color: #D16B6F;
     color: #FFFFFF;
     border-color: #D16B6F;
     border-radius: 0px 20px 0px 20px;
 }
-main{
+
+main {
     text-align: center;
+    margin-top: 140px;
 }
 
-.banner__image{
+.banner__image {
     width: 1100px;
 }
-.reservas{
+
+.reservas {
     width: 1100px;
     height: 120px;
     border: #3B929C 2px dashed;
@@ -71,7 +79,8 @@ main{
     gap: 10px;
     font-size: 24px;
 }
-button{
+
+#reservas__botao {
     width: 270px;
     background-color: #3B929C;
     color: #FFFFFF;
@@ -81,7 +90,12 @@ button{
     font-size: 24px;
 }
 
-article{
+#reservas__botao:hover {
+    color: #FFFFFF;
+    background-color: #D16B6F;
+}
+
+article {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -90,7 +104,7 @@ article{
 }
 
 
-.sobre{
+.sobre {
     width: 1100px;
     display: flex;
     justify-content: center;
@@ -98,47 +112,93 @@ article{
     font-size: 64px;
 
 }
-.sobre__texto{
+
+.sobre__texto {
     width: 550px;
-    font-size:32px;
+    font-size: 32px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.sobre__texto__fonte{
-  font-family: "Grand Hotel", cursive;
-  font-weight: 400;
-  font-style: normal;
+.sobre__texto__fonte {
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.tia-sonia{
+.tia-sonia {
     width: 500px;
     border-radius: 150px 40px 10px 40px;
 }
 
-footer{
+
+
+#logo{
+    width: 130px;
+    border-radius: 10px;
+}
+
+
+.container-busca {
+    display: flex;
+    border: 2px solid #3B929C;
+    border-radius: 20px;
+    width: 764px;
+    height: 40px;
+    padding: 5px;
+}
+
+.campo-busca {
+    border: none;
+    flex: 1;
+    outline: none;
+}
+
+.botao-busca {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #3B929C;
+}
+
+
+.catalogo-bordados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+
+.item-bordado:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+#bordados {
+    scroll-margin-top: 100px;
+}
+
+footer {
     width: 100%px;
-    height:80px;
+    height: 80px;
     background-color: #3B929C;
     text-align: center;
+    margin-top: 100px;
 }
 
-.texto-footer{
-   padding-top: 30px;
-   color: #FFFFFF;
-   font-size: 20px;
-   
+.texto-footer {
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+
 }
-
-
-.menu img{
-    width: 130px; 
-    border-radius:  10px;  
-}
-
-
-
-
-
-

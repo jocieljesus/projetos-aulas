@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bordado1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bordado 1 - Sônia Bordados</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <img id="logo" src="img/logo-tia-sonia.png" alt="Logo da Tia Sônia">
+            <ul>
+                <li><a class="menu__item" href="index.html">Home</a></li>
+                <li><a class="menu__item" href="#bordados">Bordados</a></li>
+                <li><a class="menu__item" href="http://">Carrinho</a></li>
+                <li><a class="menu__item" href="http://">Conta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="bordados-detalhes">
+            <section class="item-bordado">
+                    <div>
+                        <img class="bordado-imagem" src="img/bordado-02.png"
+                            alt="Bordado de um pássaro azul em um tecido bege.">
+                        <div class="carrossel">
+                            <i class="fa-solid fa-angle-left icone-carrossel"></i>
+                            <img class="imagem-carrossel" src="img/bordado-02.png" alt="Bordado de um pássaro azul em um tecido bege.">
+                            <img class="imagem-carrossel" src="img/bordado-02.png" alt="Bordado de um pássaro azul em um tecido bege.">
+                            <img class="imagem-carrossel" src="img/bordado-02.png" alt="Bordado de um pássaro azul em um tecido bege.">
+                            <img class="imagem-carrossel" src="img/bordado-02.png" alt="Bordado de um pássaro azul em um tecido bege.">
+                            <i class="fa-solid fa-angle-right icone-carrossel"></i>
+                        </div>
+                        <div>
+                            <input type="number" name="quantidade" min="1" max="10" id="seletor">
+                            <button id="botao-carrinho">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="detalhes">
+                        <h1 class="titulo">Bordado Arvore</h1>
+                        <p><strong>Preço:</strong> R$ 50,00</p>
+                        <p><strong>Descrição:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis obcaecati dolorem repudiandae commodi eaque aut corrupti quas, a fugiat nam minima voluptates dolorum autem tempore maxime beatae error, cupiditate at.</p>
+                        <p><strong>Dimensões:</strong> 20cm x 20cm</p>
+                        <p><strong>Prazo:</strong> 2 a 3 dias úteis</p>
+    
+                        <div>
+                            <h2>Area de Customização</h2>
+                            <p>Cor da linha</p>
+                            <form action="" id="cores">
+                                <input type="radio" id="cor-1">
+                                <input type="radio" id="cor-2" >
+                                <input type="radio" id="cor-3">
+                                <input type="radio" id="cor-4"> 
+                                <input type="radio" id="cor-5">
+                            </form>
+                            <p>Texto do bordado</p>
+                            <textarea name="texto-bordado" id="texto-bordado" rows="4"> </textarea>
+                        </div>
+                    </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <nav>
+            <p class="texto-footer">A tia sônia agradece a visita. Ficou alguma dúvida entre em contato com ela. </p>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
