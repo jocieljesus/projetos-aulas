@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     color: #3B929C;
+    font-family: sans-serif;
 
 }
 
@@ -15,6 +16,7 @@ main {
     margin: auto;
     color: #3B929C;
 }
+
 
 header {
     width: 100%;
@@ -65,6 +67,11 @@ main {
     border-radius: 10px;
 }
 
+
+.bordados-detalhes{
+    margin-top: 200px;
+}
+
 .bordado-imagem {
     width: 500px;
     border-radius: 10px;
@@ -85,25 +92,58 @@ h2 {
 }
 
 .carrossel{
+    width: 550px;
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .imagem-carrossel {
     width: 90px;
 }
 
+.imagem-carrossel:hover {
+    transform: scale(1.1);
+}
+
+
 .icone-carrossel {
   font-size: 50px;
 }
 
-#cores > input  {
-  width: 40px;
-  height: 40px;
+.icone-carrossel:hover{
+  transform: scale(1.2);
+}
+
+
+.detalhes{
+    width: 500px;
+
+}
+
+.area-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 #texto-bordado{
-  width: 400px;
+    width: 400px;
+    font-size: 20px;
+    border: #3B929C 2px solid;
+    outline: none;
+}
+
+h3 {    
+  font-size: 20px;
+}
+
+.area-customizacao{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 footer {
@@ -119,4 +159,77 @@ footer {
     color: #FFFFFF;
     font-size: 20px;
 
+}
+
+.area-quantidade {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+
+#botao-carrinho {
+  background:none;
+  border: none;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+#botao-carrinho:hover {
+  transform: scale(1.1);
+}
+
+
+#seletor {
+  width: 50px;
+  text-align: center;
+  font-size: 30px;
+  border: #3B929C 2px solid;
+}
+
+#seletor:focus {
+  outline: none;
+}
+
+
+input[type="radio"] {
+  display: none;
+}
+
+#cores > label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#cores > label:hover {
+    transform: scale(1.1);
+}
+
+#cores > input[type="radio"]:checked + label {
+    border-color: #3B929C;
+    outline: 1px solid #3B929C;
+    transform: scale(1.1);
+}
+
+#caixa-cor-1 {
+    background-color: rgb(74, 139, 193);
+}
+#caixa-cor-2 {
+    background-color: rgb(103, 168, 103);
+}
+#caixa-cor-3 {
+    background-color: rgb(187, 116, 116);
+}
+#caixa-cor-4 {
+    background-color: rgb(240, 240, 132);
+}
+#caixa-cor-5 {
+    background-color: rgb(248, 203, 120);
 }
